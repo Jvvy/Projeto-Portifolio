@@ -42,5 +42,40 @@ body{
 
 
 
+/* Inicio Main */
+.main{
+    background-color: #181818;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url('images/programador.png');
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
 
+.main h1{
+    color: #FFF;
+    font-size: 50px;
+}
+.main p{
+    font-size: 20px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.call-to-action{
+    background-color: #1e96fc;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Final Main */
 

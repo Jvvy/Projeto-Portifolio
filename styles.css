@@ -18,6 +18,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -75,7 +77,45 @@ body{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
+}
+.call-to-action:hover{
+    transform: scale(1.1);
+}
+/* Final Main */
+
+
+
+/* Inicio Sobre */
+.sobre{
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Final Main */
+.sobre div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.sobre img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.sobre div h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+/* Final Sobre */
+
+
 

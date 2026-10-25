@@ -11,6 +11,10 @@ body{
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Inicio NavBar Styles */
 .nav{
     background-color: #181818;
@@ -20,6 +24,7 @@ body{
     justify-content: flex-end;
     position: sticky;
     top: 0;
+    z-index: 1000;
 
 }
 
